@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Alert } from 'react-bootstrap';
-import logo from './logo.svg';
 import './App.css';
 
 import NavigationBar from './components/partials/NavigationBar';

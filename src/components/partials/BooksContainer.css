@@ -1,0 +1,12 @@
+.book-wrapper {
+  min-height:350px;
+}
+.gray-text {
+  color:#333;
+}
+.book-title p{
+  font-size:12px!important;
+}
+.book-image-wrapper img {
+  min-height:200px;
+}

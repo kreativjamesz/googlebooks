@@ -25,10 +25,247 @@
 .flat {
   border-radius: 0px!important;
 }
+.txt-lightblue {
+  color:#0071BD!important;
+}
+.txt-cyan {
+  color:#00b8e6!important;
+}
 .navbar-inverse {
   margin-bottom: 0px;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+/*Button Turquoise*/
+.btn-turquoise {
+  color: #ffffff;
+  background-color: #20C5B5;
+  border-color: #20C5B5;
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus,
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open .dropdown-toggle.btn-turquoise {
+  color: #ffffff;
+  background-color: #16AD9E;
+  border-color: #20C5B5;
+}
+
+.btn-turquoise:active,
+.btn-turquoise.active,
+.open .dropdown-toggle.btn-turquoise {
+  background-image: none;
+}
+
+.btn-turquoise.disabled,
+.btn-turquoise[disabled],
+fieldset[disabled] .btn-turquoise,
+.btn-turquoise.disabled:hover,
+.btn-turquoise[disabled]:hover,
+fieldset[disabled] .btn-turquoise:hover,
+.btn-turquoise.disabled:focus,
+.btn-turquoise[disabled]:focus,
+fieldset[disabled] .btn-turquoise:focus,
+.btn-turquoise.disabled:active,
+.btn-turquoise[disabled]:active,
+fieldset[disabled] .btn-turquoise:active,
+.btn-turquoise.disabled.active,
+.btn-turquoise[disabled].active,
+fieldset[disabled] .btn-turquoise.active {
+  background-color: #20C5B5;
+  border-color: #20C5B5;
+}
+
+.btn-turquoise .badge {
+  color: #20C5B5;
+  background-color: #ffffff;
+}
+
+/* Button Cyan */
+.btn-cyan {
+  color: #ffffff;
+  background-color: #00DFDF;
+  border-color: #00DFDF;
+}
+
+.btn-cyan:hover,
+.btn-cyan:focus,
+.btn-cyan:active,
+.btn-cyan.active,
+.open .dropdown-toggle.btn-cyan {
+  color: #ffffff;
+  background-color: #00CCCC;
+  border-color: #00DFDF;
+}
+
+.btn-cyan:active,
+.btn-cyan.active,
+.open .dropdown-toggle.btn-cyan {
+  background-image: none;
+}
+
+.btn-cyan.disabled,
+.btn-cyan[disabled],
+fieldset[disabled] .btn-cyan,
+.btn-cyan.disabled:hover,
+.btn-cyan[disabled]:hover,
+fieldset[disabled] .btn-cyan:hover,
+.btn-cyan.disabled:focus,
+.btn-cyan[disabled]:focus,
+fieldset[disabled] .btn-cyan:focus,
+.btn-cyan.disabled:active,
+.btn-cyan[disabled]:active,
+fieldset[disabled] .btn-cyan:active,
+.btn-cyan.disabled.active,
+.btn-cyan[disabled].active,
+fieldset[disabled] .btn-cyan.active {
+  background-color: #00DFDF;
+  border-color: #00DFDF;
+}
+
+.btn-cyan .badge {
+  color: #00DFDF;
+  background-color: #ffffff;
+}
+/* Button LightBlue*/
+.btn-lightblue {
+  color: #ffffff;
+  background-color: #008AE6;
+  border-color: #008AE6;
+}
+
+.btn-lightblue:hover,
+.btn-lightblue:focus,
+.btn-lightblue:active,
+.btn-lightblue.active,
+.open .dropdown-toggle.btn-lightblue {
+  color: #ffffff;
+  background-color: #0071BD;
+  border-color: #008AE6;
+}
+
+.btn-lightblue:active,
+.btn-lightblue.active,
+.open .dropdown-toggle.btn-lightblue {
+  background-image: none;
+}
+
+.btn-lightblue.disabled,
+.btn-lightblue[disabled],
+fieldset[disabled] .btn-lightblue,
+.btn-lightblue.disabled:hover,
+.btn-lightblue[disabled]:hover,
+fieldset[disabled] .btn-lightblue:hover,
+.btn-lightblue.disabled:focus,
+.btn-lightblue[disabled]:focus,
+fieldset[disabled] .btn-lightblue:focus,
+.btn-lightblue.disabled:active,
+.btn-lightblue[disabled]:active,
+fieldset[disabled] .btn-lightblue:active,
+.btn-lightblue.disabled.active,
+.btn-lightblue[disabled].active,
+fieldset[disabled] .btn-lightblue.active {
+  background-color: #008AE6;
+  border-color: #008AE6;
+}
+
+.btn-lightblue .badge {
+  color: #008AE6;
+  background-color: #ffffff;
+}
+
+/* Navbar LightBlue */
+.navbar-lightblue {
+  background-color: #008ae6;
+  border-color: #0066ab;
+}
+.navbar-lightblue .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-lightblue .navbar-brand:hover,
+.navbar-lightblue .navbar-brand:focus {
+  color: #b7e2ff;
+}
+.navbar-lightblue .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-lightblue .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-lightblue .navbar-nav > li > a:hover,
+.navbar-lightblue .navbar-nav > li > a:focus {
+  color: #b7e2ff;
+}
+.navbar-lightblue .navbar-nav > li > .dropdown-menu {
+  background-color: #008ae6;
+}
+.navbar-lightblue .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-lightblue .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-lightblue .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #b7e2ff;
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #b7e2ff;
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-nav > .active > a,
+.navbar-lightblue .navbar-nav > .active > a:hover,
+.navbar-lightblue .navbar-nav > .active > a:focus {
+  color: #b7e2ff;
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-nav > .open > a,
+.navbar-lightblue .navbar-nav > .open > a:hover,
+.navbar-lightblue .navbar-nav > .open > a:focus {
+  color: #b7e2ff;
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-toggle {
+  border-color: #0066ab;
+}
+.navbar-lightblue .navbar-toggle:hover,
+.navbar-lightblue .navbar-toggle:focus {
+  background-color: #0066ab;
+}
+.navbar-lightblue .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-lightblue .navbar-collapse,
+.navbar-lightblue .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-lightblue .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-lightblue .navbar-link:hover {
+  color: #b7e2ff;
+}
+
+@media (max-width: 767px) {
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #b7e2ff;
+  }
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-lightblue .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #b7e2ff;
+    background-color: #0066ab;
+  }
 }

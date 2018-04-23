@@ -4,9 +4,9 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Bu
 class NavigationBar extends Component {
     render() {
         return (
-    		    <Navbar inverse collapseOnSelect className="navbar-fixed-top">
+    		    <Navbar collapseOnSelect className="navbar-fixed-top">
 				  	<Navbar.Header>
-				    	<Navbar.Brand><a href="#brand">Google Books</a></Navbar.Brand>
+				    	<Navbar.Brand><a href="#brand" className="txt-cyan">Google Books</a></Navbar.Brand>
 			    		<Navbar.Toggle />
 				  	</Navbar.Header>
 				  	<Navbar.Collapse>
