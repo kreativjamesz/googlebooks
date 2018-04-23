@@ -26,7 +26,7 @@ class BooksContainer extends Component {
                   bookTitle = bookTitle.substring(0,30) + '...';
               }
               return(
-                  <div key={index} className="col-sm-12 col-md-4 col-lg-3 book-column">
+                  <div key={index} className="col-xs-12 col-sm-5 col-md-3 col-lg-2 book-column">
                       <div className="book-wrapper">
                           <a className="book" href={infoLink} target="_blank">
                               <div className="book-image-wrapper">

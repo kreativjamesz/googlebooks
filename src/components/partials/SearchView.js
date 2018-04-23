@@ -35,7 +35,7 @@ class SearchView extends Component {
                   <img src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png" width="130"/>
               </div>
               <div className="col-md-12">
-                <div className="title m-b-md col-md-12">Google Books</div>
+                <div className="title col-md-12">Google Books</div>
                 <div class="input-group">
                   <FormControl
                       type = "text"
